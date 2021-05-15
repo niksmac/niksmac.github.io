@@ -31,7 +31,7 @@ export default function Home() {
               co-founder of Lightrains
             </h1>
             <a
-              className="mt-8 block hover:text-green-500"
+              className="mt-8 inline-block hover:text-green-500"
               href="mailto:niksmac@pm.me">
               niksmac@pm.me
             </a>
