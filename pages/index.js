@@ -32,8 +32,8 @@ export default function Home() {
             </h1>
             <a
               className="mt-8 inline-block hover:text-green-500"
-              href="mailto:niksmac@pm.me">
-              niksmac@pm.me
+              href="mailto:nik@niksmac.me">
+              nik@niksmac.me
             </a>
 
             <div className="mt-2">
