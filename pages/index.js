@@ -7,11 +7,14 @@ export default function Home() {
     <div className="bg-gray-900 w-screen h-screen">
       <Head>
         <title>@niksmac</title>
+        <meta
+          name="description"
+          content="Co-Founder of Lightrains. I spend time by reading about code, design, startups and open source projects."
+        />
         <link rel="icon" href="/favicon.ico" />
-
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -19,7 +22,7 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
-          font-family: 'Noto Sans JP', sans-serif;
+          font-family: 'Josefin Sans', sans-serif;
         }
       `}</style>
 
@@ -31,7 +34,7 @@ export default function Home() {
               co-founder of Lightrains
             </h1>
             <a
-              className="mt-8 inline-block hover:text-green-500"
+              className="mt-12 inline-block hover:text-green-500"
               href="mailto:nik@niksmac.me">
               nik@niksmac.me
             </a>
@@ -40,17 +43,22 @@ export default function Home() {
               <a
                 className="inline-block mr-2 hover:text-green-500"
                 href="https://twitter.com/niksmac_">
-                twitter
+                Twitter
               </a>
               <a
                 className="inline-block mr-2 hover:text-green-500"
                 href="https://github.com/niksmac">
-                github
+                GitHub
+              </a>
+              <a
+                className="inline-block mr-2 hover:text-green-500"
+                href="https://linkedin.com/in/niksmac/">
+                LinkedIn
               </a>
               <a
                 className="inline-block hover:text-green-500"
-                href="https://linkedin.com/in/niksmac/">
-                linkedin
+                href="https://stackexchange.com/users/438934/niksmac?tab=accounts">
+                StackOverflow
               </a>
             </div>
           </div>
