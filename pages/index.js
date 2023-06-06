@@ -31,7 +31,7 @@ export default function Home() {
           <div className="md:w-2/3 w-screen px-4">
             <h1 className="text-3xl md:text-4xl font-bold leading-relaxed">
               Entrepreneur, Blockchain enthusiast, <br />
-              co-founder of Lightrains
+              co-founder of MeshMonk and Lightrains
             </h1>
             <a
               className="mt-12 inline-block hover:text-green-500"
